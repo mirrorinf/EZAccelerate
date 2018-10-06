@@ -2,9 +2,6 @@
 //  EZA2DArray+LinAlg.swift
 //  hehe
 //
-//  Created by ChuXiaoMin on 2018/10/4.
-//  Copyright © 2018 ChuXiaoMin. All rights reserved.
-//
 
 import Foundation
 import Accelerate

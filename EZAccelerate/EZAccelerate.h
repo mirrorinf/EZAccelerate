@@ -2,9 +2,6 @@
 //  EZAccelerate.h
 //  EZAccelerate
 //
-//  Created by ChuXiaoMin on 2018/10/6.
-//  Copyright © 2018 ChuXiaoMin. All rights reserved.
-//
 
 #import <Cocoa/Cocoa.h>
 
