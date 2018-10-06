@@ -29,6 +29,7 @@
 		F38A8123216856C60085F256 /* EZA2DArray+Pointwise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EZA2DArray+Pointwise.swift"; sourceTree = "<group>"; };
 		F38A8124216856C70085F256 /* EZA2DArray+Arithmetic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EZA2DArray+Arithmetic.swift"; sourceTree = "<group>"; };
 		F38A8125216856C70085F256 /* EZA2DArray+LinAlg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EZA2DArray+LinAlg.swift"; sourceTree = "<group>"; };
+		F38A812D2168574E0085F256 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +47,7 @@
 			isa = PBXGroup;
 			children = (
 				F38A811E216850F80085F256 /* README.md */,
+				F38A812D2168574E0085F256 /* LICENSE */,
 				F38A8115216850A90085F256 /* EZAccelerate */,
 				F38A8114216850A90085F256 /* Products */,
 			);
