@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F312764B21718977002081A0 /* EZA2DArray+Sub.swift in Sources */ = {isa = PBXBuildFile; fileRef = F312764A21718977002081A0 /* EZA2DArray+Sub.swift */; };
 		F38A8118216850A90085F256 /* EZAccelerate.h in Headers */ = {isa = PBXBuildFile; fileRef = F38A8116216850A90085F256 /* EZAccelerate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F38A8126216856C70085F256 /* EZA2DArray+IO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38A811F216856C60085F256 /* EZA2DArray+IO.swift */; };
 		F38A8127216856C70085F256 /* EZA2DArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38A8120216856C60085F256 /* EZA2DArray.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F312764A21718977002081A0 /* EZA2DArray+Sub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EZA2DArray+Sub.swift"; sourceTree = "<group>"; };
 		F38A8113216850A90085F256 /* EZAccelerate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EZAccelerate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F38A8116216850A90085F256 /* EZAccelerate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZAccelerate.h; sourceTree = "<group>"; };
 		F38A8117216850A90085F256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				F38A8125216856C70085F256 /* EZA2DArray+LinAlg.swift */,
 				F38A8123216856C60085F256 /* EZA2DArray+Pointwise.swift */,
 				F38A8122216856C60085F256 /* EZA2DArray+Reduce.swift */,
+				F312764A21718977002081A0 /* EZA2DArray+Sub.swift */,
 				F38A8117216850A90085F256 /* Info.plist */,
 			);
 			path = EZAccelerate;
@@ -162,6 +165,7 @@
 				F38A812B216856C70085F256 /* EZA2DArray+Arithmetic.swift in Sources */,
 				F38A8129216856C70085F256 /* EZA2DArray+Reduce.swift in Sources */,
 				F38A8128216856C70085F256 /* EZA2DArray+Auxiliary.swift in Sources */,
+				F312764B21718977002081A0 /* EZA2DArray+Sub.swift in Sources */,
 				F38A812A216856C70085F256 /* EZA2DArray+Pointwise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

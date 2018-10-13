@@ -59,3 +59,11 @@ extension EZA2DArray {
         self.column = temp
     }
 }
+
+extension EZA2DArray: Equatable {
+    
+}
+
+extension EZA2DArray: Hashable {
+    
+}
