@@ -18,6 +18,7 @@
 		F3EE38F12190668800A5D6E6 /* ODESolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EE38F02190668800A5D6E6 /* ODESolver.swift */; };
 		F3EE38F32190670200A5D6E6 /* EZAArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EE38F22190670200A5D6E6 /* EZAArray.swift */; };
 		F3EE38F521906B7000A5D6E6 /* EZARK45ODESolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EE38F421906B7000A5D6E6 /* EZARK45ODESolver.swift */; };
+		F3EE38F821906EA900A5D6E6 /* SIMD.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EE38F721906EA900A5D6E6 /* SIMD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		F3EE38F02190668800A5D6E6 /* ODESolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ODESolver.swift; sourceTree = "<group>"; };
 		F3EE38F22190670200A5D6E6 /* EZAArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EZAArray.swift; sourceTree = "<group>"; };
 		F3EE38F421906B7000A5D6E6 /* EZARK45ODESolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EZARK45ODESolver.swift; sourceTree = "<group>"; };
+		F3EE38F721906EA900A5D6E6 /* SIMD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIMD.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			children = (
 				F38A8116216850A90085F256 /* EZAccelerate.h */,
 				F3EE38F22190670200A5D6E6 /* EZAArray.swift */,
+				F3EE38F721906EA900A5D6E6 /* SIMD.swift */,
 				F38A8120216856C60085F256 /* EZA2DArray.swift */,
 				F38A8124216856C70085F256 /* EZA2DArray+Arithmetic.swift */,
 				F38A8121216856C60085F256 /* EZA2DArray+Auxiliary.swift */,
@@ -180,6 +183,7 @@
 				F38A812B216856C70085F256 /* EZA2DArray+Arithmetic.swift in Sources */,
 				F38A8129216856C70085F256 /* EZA2DArray+Reduce.swift in Sources */,
 				F3EE38F32190670200A5D6E6 /* EZAArray.swift in Sources */,
+				F3EE38F821906EA900A5D6E6 /* SIMD.swift in Sources */,
 				F3EE38F521906B7000A5D6E6 /* EZARK45ODESolver.swift in Sources */,
 				F38A8128216856C70085F256 /* EZA2DArray+Auxiliary.swift in Sources */,
 				F38A812A216856C70085F256 /* EZA2DArray+Pointwise.swift in Sources */,

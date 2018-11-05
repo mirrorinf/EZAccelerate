@@ -16,3 +16,11 @@ protocol EZAArray: Equatable {
     static func *(lhs: Self, rhs: Base) -> Self
     static func *(lhs: Base, rhs: Self) -> Self
 }
+
+extension Double: EZAArray {
+    typealias Base = Double
+}
+
+extension Float: EZAArray {
+    typealias Base = Float
+}

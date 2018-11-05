@@ -20,6 +20,10 @@ class EZARK45ODESolver<T: EZAODESystem>: EZAODESolver<T> {
         let two = T.Representation.Base(2)
         
         currentTime = currentTime + step
-        currentValue = currentValue + onesixth*(k1 + k2*two + k3*two + k4)
+        
+        let add1 = k1 + two * k2
+        let add2 = two * k3 + k4
+        let add3 = add1 * onesixth + add2 * onesixth
+        currentValue = currentValue + add3
     }
 }
