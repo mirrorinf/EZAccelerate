@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F312764B21718977002081A0 /* EZA2DArray+Sub.swift in Sources */ = {isa = PBXBuildFile; fileRef = F312764A21718977002081A0 /* EZA2DArray+Sub.swift */; };
 		F38A8118216850A90085F256 /* EZAccelerate.h in Headers */ = {isa = PBXBuildFile; fileRef = F38A8116216850A90085F256 /* EZAccelerate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F38A8126216856C70085F256 /* EZA2DArray+IO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38A811F216856C60085F256 /* EZA2DArray+IO.swift */; };
 		F38A8127216856C70085F256 /* EZA2DArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38A8120216856C60085F256 /* EZA2DArray.swift */; };
@@ -16,10 +15,12 @@
 		F38A812A216856C70085F256 /* EZA2DArray+Pointwise.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38A8123216856C60085F256 /* EZA2DArray+Pointwise.swift */; };
 		F38A812B216856C70085F256 /* EZA2DArray+Arithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38A8124216856C70085F256 /* EZA2DArray+Arithmetic.swift */; };
 		F38A812C216856C70085F256 /* EZA2DArray+LinAlg.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38A8125216856C70085F256 /* EZA2DArray+LinAlg.swift */; };
+		F3EE38F12190668800A5D6E6 /* ODESolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EE38F02190668800A5D6E6 /* ODESolver.swift */; };
+		F3EE38F32190670200A5D6E6 /* EZAArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EE38F22190670200A5D6E6 /* EZAArray.swift */; };
+		F3EE38F521906B7000A5D6E6 /* EZARK45ODESolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EE38F421906B7000A5D6E6 /* EZARK45ODESolver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F312764A21718977002081A0 /* EZA2DArray+Sub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EZA2DArray+Sub.swift"; sourceTree = "<group>"; };
 		F38A8113216850A90085F256 /* EZAccelerate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EZAccelerate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F38A8116216850A90085F256 /* EZAccelerate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZAccelerate.h; sourceTree = "<group>"; };
 		F38A8117216850A90085F256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -32,6 +33,9 @@
 		F38A8124216856C70085F256 /* EZA2DArray+Arithmetic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EZA2DArray+Arithmetic.swift"; sourceTree = "<group>"; };
 		F38A8125216856C70085F256 /* EZA2DArray+LinAlg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EZA2DArray+LinAlg.swift"; sourceTree = "<group>"; };
 		F38A812D2168574E0085F256 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F3EE38F02190668800A5D6E6 /* ODESolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ODESolver.swift; sourceTree = "<group>"; };
+		F3EE38F22190670200A5D6E6 /* EZAArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EZAArray.swift; sourceTree = "<group>"; };
+		F3EE38F421906B7000A5D6E6 /* EZARK45ODESolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EZARK45ODESolver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				F38A8116216850A90085F256 /* EZAccelerate.h */,
+				F3EE38F22190670200A5D6E6 /* EZAArray.swift */,
 				F38A8120216856C60085F256 /* EZA2DArray.swift */,
 				F38A8124216856C70085F256 /* EZA2DArray+Arithmetic.swift */,
 				F38A8121216856C60085F256 /* EZA2DArray+Auxiliary.swift */,
@@ -74,10 +79,19 @@
 				F38A8125216856C70085F256 /* EZA2DArray+LinAlg.swift */,
 				F38A8123216856C60085F256 /* EZA2DArray+Pointwise.swift */,
 				F38A8122216856C60085F256 /* EZA2DArray+Reduce.swift */,
-				F312764A21718977002081A0 /* EZA2DArray+Sub.swift */,
+				F3EE38F621906B7900A5D6E6 /* ODE */,
 				F38A8117216850A90085F256 /* Info.plist */,
 			);
 			path = EZAccelerate;
+			sourceTree = "<group>";
+		};
+		F3EE38F621906B7900A5D6E6 /* ODE */ = {
+			isa = PBXGroup;
+			children = (
+				F3EE38F02190668800A5D6E6 /* ODESolver.swift */,
+				F3EE38F421906B7000A5D6E6 /* EZARK45ODESolver.swift */,
+			);
+			path = ODE;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,13 +173,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3EE38F12190668800A5D6E6 /* ODESolver.swift in Sources */,
 				F38A812C216856C70085F256 /* EZA2DArray+LinAlg.swift in Sources */,
 				F38A8127216856C70085F256 /* EZA2DArray.swift in Sources */,
 				F38A8126216856C70085F256 /* EZA2DArray+IO.swift in Sources */,
 				F38A812B216856C70085F256 /* EZA2DArray+Arithmetic.swift in Sources */,
 				F38A8129216856C70085F256 /* EZA2DArray+Reduce.swift in Sources */,
+				F3EE38F32190670200A5D6E6 /* EZAArray.swift in Sources */,
+				F3EE38F521906B7000A5D6E6 /* EZARK45ODESolver.swift in Sources */,
 				F38A8128216856C70085F256 /* EZA2DArray+Auxiliary.swift in Sources */,
-				F312764B21718977002081A0 /* EZA2DArray+Sub.swift in Sources */,
 				F38A812A216856C70085F256 /* EZA2DArray+Pointwise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

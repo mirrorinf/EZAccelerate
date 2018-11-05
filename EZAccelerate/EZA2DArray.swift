@@ -67,3 +67,7 @@ extension EZA2DArray: Equatable {
 extension EZA2DArray: Hashable {
     
 }
+
+extension EZA2DArray: EZAArray {
+    typealias Base = Double
+}
