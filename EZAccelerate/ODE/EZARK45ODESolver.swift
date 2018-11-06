@@ -8,7 +8,7 @@
 
 import Foundation
 
-class EZARK45ODESolver<T: EZAODESystem>: EZAODESolver<T> {
+class EZARK45ODESolver<T: EZAODESystem>: EZAStepODESolver<T> {
     override func update(by step: T.Representation.Base) {
         let half = T.Representation.Base(1) / T.Representation.Base(2)
         let k1 = step * derivative(currentValue, currentTime)

@@ -15,7 +15,7 @@ protocol EZAODESystem {
     var derivative: (Representation, Representation.Base) -> Representation { get }
 }
 
-class EZAODESolver<T: EZAODESystem> {
+class EZAStepODESolver<T: EZAODESystem> {
     var currentValue: T.Representation
     var currentTime: T.Representation.Base
     var derivative: (T.Representation, T.Representation.Base) -> T.Representation

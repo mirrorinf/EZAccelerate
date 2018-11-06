@@ -75,13 +75,7 @@
 				F38A8116216850A90085F256 /* EZAccelerate.h */,
 				F3EE38F22190670200A5D6E6 /* EZAArray.swift */,
 				F3EE38F721906EA900A5D6E6 /* SIMD.swift */,
-				F38A8120216856C60085F256 /* EZA2DArray.swift */,
-				F38A8124216856C70085F256 /* EZA2DArray+Arithmetic.swift */,
-				F38A8121216856C60085F256 /* EZA2DArray+Auxiliary.swift */,
-				F38A811F216856C60085F256 /* EZA2DArray+IO.swift */,
-				F38A8125216856C70085F256 /* EZA2DArray+LinAlg.swift */,
-				F38A8123216856C60085F256 /* EZA2DArray+Pointwise.swift */,
-				F38A8122216856C60085F256 /* EZA2DArray+Reduce.swift */,
+				F3EE38FA21915FBD00A5D6E6 /* 2DArray */,
 				F3EE38F621906B7900A5D6E6 /* ODE */,
 				F38A8117216850A90085F256 /* Info.plist */,
 			);
@@ -95,6 +89,20 @@
 				F3EE38F421906B7000A5D6E6 /* EZARK45ODESolver.swift */,
 			);
 			path = ODE;
+			sourceTree = "<group>";
+		};
+		F3EE38FA21915FBD00A5D6E6 /* 2DArray */ = {
+			isa = PBXGroup;
+			children = (
+				F38A8120216856C60085F256 /* EZA2DArray.swift */,
+				F38A8124216856C70085F256 /* EZA2DArray+Arithmetic.swift */,
+				F38A8121216856C60085F256 /* EZA2DArray+Auxiliary.swift */,
+				F38A811F216856C60085F256 /* EZA2DArray+IO.swift */,
+				F38A8125216856C70085F256 /* EZA2DArray+LinAlg.swift */,
+				F38A8123216856C60085F256 /* EZA2DArray+Pointwise.swift */,
+				F38A8122216856C60085F256 /* EZA2DArray+Reduce.swift */,
+			);
+			path = 2DArray;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
